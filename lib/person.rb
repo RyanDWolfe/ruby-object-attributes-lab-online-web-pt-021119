@@ -8,8 +8,12 @@ class Person
     puts @name
   end
 
-  def job(job)
+  def job=(job)
     @job = job
+  end
+
+  def job
+    puts @job
   end
 
 end
